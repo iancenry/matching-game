@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.glass {
+    background: white;
+    height: 700px;
+    width: 800px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 13px;
+    z-index: +10000;
+    /*blur effect*/
+    backdrop-filter: blur(25px);
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    display: flex;
+}
+
+.grid {
+    width: 400px;
+    height: 300px;
+    border: solid black 1px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+h3 {
+    position: absolute;
+    top: 34%;
+    left: 25%;
+}
+
+.welcome-message {
+    background: white;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    background: linear-gradient(to right bottom, rgba(101, 223, 201, 0.6), rgba(108, 219, 235, 0.1));
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
